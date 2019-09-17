@@ -39796,13 +39796,24 @@ var render = function() {
                         ]
                       ),
                       _vm._v(" "),
-                      _vm._v(
-                        "\"javascript: return confirm('Tem certeza que deseja deletar essa tarefa?');\\\">"
-                      ),
                       _c(
-                        "button",
-                        { staticClass: "btn btn-danger btn-secondary btn-sm" },
-                        [_vm._v("Deletar")]
+                        "a",
+                        {
+                          attrs: {
+                            href: "tarefa/" + auxtarefa.id + "/delete",
+                            onClick:
+                              "return confirm('Tem certeza que deseja deletar essa tarefa?')"
+                          }
+                        },
+                        [
+                          _c(
+                            "button",
+                            {
+                              staticClass: "btn btn-danger btn-secondary btn-sm"
+                            },
+                            [_vm._v("Deletar")]
+                          )
+                        ]
                       ),
                       _vm._v(" "),
                       _c(
@@ -55407,8 +55418,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\visitante\Desktop\trabFatto\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\visitante\Desktop\trabFatto\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\T-Gamer\dragAndDrop\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\T-Gamer\dragAndDrop\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
