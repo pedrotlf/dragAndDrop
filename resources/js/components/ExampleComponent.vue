@@ -26,7 +26,7 @@
                     <td class="d-flex">
                         <div class="btn-group mr-2 ml-auto" role="group" aria-label="First group">
                             <a :href="'tarefa/' + auxtarefa.id + '/edit'"  ><button  class="btn btn-success btn-sm">Editar</button></a>
-                            <a :href="'tarefa/' + auxtarefa.id + '/delete'" onClick=\"javascript: return confirm('Tem certeza que deseja deletar essa tarefa?');\"><button  class="btn btn-danger btn-secondary btn-sm">Deletar</button></a>
+                            <a :href="'tarefa/' + auxtarefa.id + '/delete'" onClick="return confirm('Tem certeza que deseja deletar essa tarefa?')"><button  class="btn btn-danger btn-secondary btn-sm">Deletar</button></a>
 							<i class="btn disabled btn-outline-info my-handle btn-sm">Arraste aqui!</i>
                         </div>
                     </td>
