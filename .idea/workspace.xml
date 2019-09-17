@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c25ab0-c321-4f6f-abcc-76fcbcd8b004" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/tarefasController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/tarefasController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,6 +109,7 @@
   <component name="ProjectId" id="1Q6smn5r2O039CmKrcZ0MHWquEt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/tarefas" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -146,8 +149,16 @@
       <option name="presentableId" value="Default" />
       <updated>1567102542095</updated>
       <workItem from="1567102549957" duration="31348000" />
-      <workItem from="1568763271092" duration="107000" />
+      <workItem from="1568763271092" duration="489000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed delete confirmation PHP test.">
+      <created>1568763479600</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568763479600</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,5 +174,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed delete confirmation PHP test." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed delete confirmation PHP test." />
   </component>
 </project>

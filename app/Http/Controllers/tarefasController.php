@@ -119,8 +119,6 @@ class tarefasController extends Controller
 			return redirect('home');
 		}
 
-		return redirect('/home');
-
         \App\tarefa::where('ordem_apresentacao', '>', $tarefa->ordem_apresentacao )->decrement('ordem_apresentacao');
 
         $tarefa->delete();
